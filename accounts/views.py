@@ -71,6 +71,9 @@ def logout(request):
     else:
         return redirect('index')
 
+def signup(request):
+    return
+
 
 def dashboard(request):
     return render(request, 'accounts/dashboard.html')
