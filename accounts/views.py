@@ -72,7 +72,8 @@ def logout(request):
         return redirect('index')
 
 def signup(request):
-    return
+    return render('')
+
 
 
 def dashboard(request):
